@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://alexandramelendez.github.io/mesheshoftheafternoon-annotations/meshes-of-the-afternoon/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Meshes of the Afternoon" ] },
+    "items": [
+      {
+        "id": "https://alexandramelendez.github.io/mesheshoftheafternoon-annotations/meshes-of-the-afternoon/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": minutes:seconds,
+        "items": [
+          {
+            "id": "https://alexandramelendez.github.io/mesheshoftheafternoon-annotations/meshes-of-the-afternoon/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://alexandramelendez.github.io/mesheshoftheafternoon-annotations/meshes-of-the-afternoon/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "http://audiannotate.brumfieldlabs.com/project/alexandramelendez/mesheshoftheafternoon-annotations/items/new",
+                    "duration": minutes:seconds
+                },
+                "target": "https://alexandramelendez.github.io/mesheshoftheafternoon-annotations/meshes-of-the-afternoon/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
